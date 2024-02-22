@@ -1,0 +1,40 @@
+.restaurants{
+    padding: 0px;
+    list-style: none;
+    margin-block-end: 0px;
+    display: grid;
+    -webkit-box-align: start;
+    align-items: start;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin: 32px 16px;    
+}
+.individual-res{
+    display: grid;
+    align-items: center;
+    margin-top: 2px;
+    gap: 30px;
+    grid-auto-flow: column;
+    justify-content: start;
+}
+.single-res{
+    cursor: pointer;
+}
+.res-detail{
+    margin-left: 12px;
+}
+.res-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+}
+.res-time{
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+    align-items: center;
+}
+.res-category,.res-location{
+    color: gray;
+}

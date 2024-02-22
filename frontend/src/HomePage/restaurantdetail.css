@@ -1,0 +1,60 @@
+.line{
+    border-bottom: .5px solid #d3d3d3;
+    height: 20px;
+    margin: 20px 0;
+    margin-top: 6px;
+    width: 100%;
+}
+.restaurant-detail{
+    /* max-width: 800px;
+    min-height: 800px;
+    margin: 20px auto 0; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px;
+    gap: 1rem;
+}
+.restaurant-title,.restaurant-heading,.menu{
+    text-align: center;
+    width: 100%;
+}
+.restaurant-menulist{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+.restaurant-menu{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+.add-food-cart-btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+.add-food-cart{
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: green;
+    font-size: 16px;
+    border: .5px solid #d3d3d3;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
